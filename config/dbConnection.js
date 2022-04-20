@@ -1,19 +1,17 @@
-// Importando o mondoDB
+/* importar o mongodb */
 var mongo = require('mongodb');
 
 var connMongoDB = function(){
-    
-    var db = new mongo.Db(
-        'got',
-        new mongo.Server('localhost', 27017, {}),
-        {} //configurações do servidor
-    )
-    
-    return db;
+	console.log('Entrou na função de conexão');
+	var db = new mongo.Db(
+		'got',
+		new mongo.Server('localhost', 27017, {}),
+		{}
+	);
 
+	return db;
 }
 
-
 module.exports = function(){
-    return connMongoDB;
+	return connMongoDB;
 }

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Felipe",
+  "author": "Jorge",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -14,6 +14,6 @@
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "express-validator": "^2.20.8",
-    "mongodb": "^4.5.0"
+    "mongodb": "^2.2.10"
   }
 }
