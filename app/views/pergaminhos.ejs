@@ -21,7 +21,7 @@
 
 			<li>
 				<%=acoes[i].quantidade%> <%=txt_acao%>
-				<small>restam <%=segundos_restantes%> segundos <a href="#">Revogar ordem</a></small>
+				<small>restam <%=segundos_restantes%> segundos <a href="/revogar_acao?id_acao=<%=acoes[i]._id%>">Revogar ordem</a></small>
 			</li>
 		
 		<% } %>
